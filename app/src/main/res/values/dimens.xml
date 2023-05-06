@@ -2,5 +2,7 @@
 <resources>
     <dimen name="anim_dimension">150dp</dimen>
     <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">18dp</dimen>
     <dimen name="text_size_medium">15sp</dimen>
+    <dimen name="padding_medium">5dp</dimen>
 </resources>

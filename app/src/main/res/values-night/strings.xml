@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="video_calling_application">Video Calling Application</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_account_register">Don\'t have account, Register?</string>
 </resources>

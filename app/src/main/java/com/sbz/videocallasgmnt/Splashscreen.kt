@@ -17,7 +17,7 @@ class Splashscreen : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed(
             {
-                startActivity(Intent(this@Splashscreen, MainActivity::class.java))
+                startActivity(Intent(this@Splashscreen, LoginActivity::class.java))
                 finish()
             },
             SCREEN_TIME_OUT
