@@ -48,14 +48,14 @@
                 android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/til_email"
+                android:id="@+id/til_phone_number"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_medium"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="@dimen/margin_medium"
-                android:background="@color/blue"
+                android:background="@color/transparent"
                 android:hint="@string/phone_number"
                 android:textColorHint="@color/black"
                 app:boxBackgroundColor="@color/white"
@@ -72,6 +72,7 @@
                     android:drawableStart="@drawable/phone_icon"
                     android:drawablePadding="@dimen/padding_medium"
                     android:inputType="phone"
+                    android:background="@drawable/edit_text_shape"
                     android:singleLine="true"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
@@ -87,7 +88,7 @@
                 android:layout_marginStart="@dimen/margin_medium"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="@dimen/margin_medium"
-                android:background="@color/blue"
+                android:background="@color/transparent"
                 android:hint="@string/password"
                 android:textColorHint="@color/black"
                 app:boxBackgroundColor="@color/white"
@@ -105,6 +106,7 @@
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/baseline_password_24"
                     android:drawablePadding="@dimen/padding_medium"
+                    android:background="@drawable/edit_text_shape"
                     android:inputType="textPersonName|textPassword"
                     android:singleLine="true"
                     android:textColor="@color/black"
