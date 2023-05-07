@@ -8,4 +8,8 @@
     <string name="sign_in">Sign In</string>
     <string name="register">Register</string>
     <string name="don_t_have_account_register">Don\'t have account, Register?</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="enter_the_otp_sent_on">Enter the OTP sent on</string>
+    <string name="dummyNumber">123456789</string>
 </resources>

@@ -4,4 +4,5 @@
     <string name="password">Password</string>
     <string name="sign_in">Sign In</string>
     <string name="don_t_have_account_register">Don\'t have account, Register?</string>
+    <string name="enter_the_otp_sent_on">Enter the OTP sent on</string>
 </resources>

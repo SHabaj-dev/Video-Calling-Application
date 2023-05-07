@@ -5,4 +5,5 @@
     <dimen name="margin_medium">18dp</dimen>
     <dimen name="text_size_medium">15sp</dimen>
     <dimen name="padding_medium">5dp</dimen>
+    <dimen name="text_size_heading">30sp</dimen>
 </resources>
