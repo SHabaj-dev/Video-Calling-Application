@@ -1,6 +1,5 @@
 package com.sbz.videocallasgmnt
 
-import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.view.Window
@@ -118,6 +117,6 @@ class HomeActivity : AppCompatActivity() {
         val decorView: View = window.decorView
         val wic = WindowInsetsControllerCompat(window, decorView)
         wic.isAppearanceLightStatusBars = true
-        window.statusBarColor = Color.WHITE
+        window.statusBarColor = getColor(R.color.blue)
     }
 }
