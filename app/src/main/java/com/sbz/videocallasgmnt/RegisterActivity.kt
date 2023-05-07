@@ -39,7 +39,6 @@ class RegisterActivity : AppCompatActivity() {
         intent.putExtra("countryCode", countryCode)
         intent.putExtra("phoneNumber", phoneNumber)
         startActivity(intent)
-        finish()
     }
 
     private fun setStatusBarProperties() {

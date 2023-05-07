@@ -6,4 +6,10 @@
     <color name="dark_blue">#3F51B5</color>
     <color name="red">#DB282F</color>
     <color name="transparent">#00DB282F</color>
+
+    <color name="home_20">#331194AA</color>
+    <color name="settings_20">#33AE7E0F</color>
+    <color name="home">#1194AA</color>
+    <color name="settings">#AE7E0F</color>
+
 </resources>

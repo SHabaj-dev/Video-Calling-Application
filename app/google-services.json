@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "974289445379",
+    "firebase_url": "https://video-calling-applicatio-a175b-default-rtdb.firebaseio.com",
     "project_id": "video-calling-applicatio-a175b",
     "storage_bucket": "video-calling-applicatio-a175b.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "974289445379-fnclr69t1ntmvnvjf5kgv5jdpa7l1g95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sbz.videocallasgmnt",
+            "certificate_hash": "e141527b18b41042969611a6d29b91983c90e98e"
+          }
+        },
         {
           "client_id": "974289445379-j3k04p9m36cjffddr4v13geudsk9m4nu.apps.googleusercontent.com",
           "client_type": 3

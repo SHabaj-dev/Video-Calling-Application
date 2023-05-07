@@ -12,4 +12,12 @@
     <string name="verify_otp">Verify OTP</string>
     <string name="enter_the_otp_sent_on">Enter the OTP sent on</string>
     <string name="dummyNumber">123456789</string>
+    <string name="name">User Name</string>
+    <string name="enter_credentials">Enter Credentials</string>
+    <string name="email">Email</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

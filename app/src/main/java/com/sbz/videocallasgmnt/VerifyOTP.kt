@@ -48,6 +48,8 @@ class VerifyOTP : AppCompatActivity() {
                 val credential = PhoneAuthProvider.getCredential(verificationId, otpCode)
                 signInWithPhoneAuthCredential(credential)
             }
+
+
         }
 
 //        binding.btnResendOtp.setOnClickListener {
@@ -101,7 +103,9 @@ class VerifyOTP : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Verification successful, do something here
 //                    Toast.makeText(this, "Verification successful!", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@VerifyOTP, MainActivity::class.java))
+                    intent = Intent(this@VerifyOTP, MainActivity::class.java)
+                    intent.putExtra("contactNumber", fullPhoneNumber)
+                    startActivity(intent)
                     finish()
                 } else {
                     // Verification failed, show error message
